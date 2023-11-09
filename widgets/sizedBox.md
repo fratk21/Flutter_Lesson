@@ -19,7 +19,7 @@ SizedBox(
     child: Text('Tıkla'),
   ),
 )
-
+````
 
 
 # `SizedBox` Widget: Resizing and Adding Spacing
@@ -43,3 +43,4 @@ SizedBox(
     child: Text('Click'),
   ),
 )
+````
