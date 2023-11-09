@@ -12,7 +12,7 @@ Row(
     // Yatayda sıralanacak widgetler burada tanımlanır.
   ],
 )
-
+````
 
 Ana Özellikler
 
@@ -25,7 +25,7 @@ mainAxisSize: mainAxisSize özelliği, yatay eksendeki boyutu nasıl belirleyece
 textDirection: textDirection özelliği, metni veya çocuk widgetleri sağdan sola (TextDirection.rtl) veya soldan sağa (TextDirection.ltr) sıralamanızı sağlar.
 
 verticalDirection: verticalDirection özelliği, dikey düzenin yönünü belirler. Örneğin, VerticalDirection.up kullanarak çocuk widgetleri yukarıdan aşağıya sıralayabilirsiniz.
-
+````dart
 Row(
   mainAxisAlignment: MainAxisAlignment.center,
   crossAxisAlignment: CrossAxisAlignment.start,
@@ -37,7 +37,7 @@ Row(
   ],
 )
 
-
+````
 
 
 
@@ -55,7 +55,7 @@ Row(
     // Define widgets to be arranged horizontally here.
   ],
 )
-
+````
 
 Key Features
 mainAxisAlignment: The mainAxisAlignment property controls how child widgets are aligned along the horizontal axis. For example, you can use MainAxisAlignment.center to align child widgets in the center.
@@ -68,7 +68,7 @@ textDirection: The textDirection property allows you to specify the text or chil
 
 verticalDirection: The verticalDirection property determines the direction of the vertical layout. For example, you can use VerticalDirection.up to arrange child widgets from top to bottom.
 
-
+````dart
 
 Row(
   mainAxisAlignment: MainAxisAlignment.center,
@@ -80,4 +80,4 @@ Row(
     // Define widgets to be arranged horizontally here.
   ],
 )
-
+````
