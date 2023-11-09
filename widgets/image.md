@@ -6,13 +6,13 @@ Temel olarak Image widgeti iki ana şekilde kullanılabilir:
 
 ````dart
 Image.network('https://example.com/your_image.jpg')
-
+````
 
 Assets’ten Görsel Yükleme: Projenizin varlıklarından (assets) görsel yüklemek için Image.asset() constructor’ını kullanabilirsiniz. Bu, projenizin pubspec.yaml dosyasında tanımlanan varlık kaynaklarına dayanır. Örnek:
 
 ```dart
 Image.asset('assets/your_image.png')
-
+````
 Image widgeti, daha fazla özelleştirme ve kontrol sağlayan pek çok özelliğe sahiptir:
 
 fit: Görselin boyutlarını nasıl uyum sağlayacağınızı belirler (örneğin, BoxFit.contain, BoxFit.cover, vb.).

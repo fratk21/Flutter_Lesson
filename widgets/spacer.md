@@ -18,8 +18,9 @@ Row(
     Text('Sağ Öğe'),
   ],
 )
-
+````
 ### Kullanımı `Column` İçinde
+````dart
 Column(
   children: <Widget>[
     Text('Üst Öğe'),
@@ -29,7 +30,7 @@ Column(
     Text('Alt Öğe'),
   ],
 )
-
+````
 
 # `Spacer` Widget: Adding Flexible Spacing with Ease
 
@@ -51,9 +52,9 @@ Row(
     Text('Right Item'),
   ],
 )
-
+````
 Usage Inside a `Column`
-
+````dart
 Column(
   children: <Widget>[
     Text('Top Item'),
@@ -63,3 +64,4 @@ Column(
     Text('Bottom Item'),
   ],
 )
+````
