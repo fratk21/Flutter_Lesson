@@ -70,7 +70,7 @@ class _CustomWidgetExapmleState extends State<CustomWidgetExapmle> {
                     context: context,
                     text: "Giriş Yap",
                     onPressed: () {},
-                  )
+                  ),
                 ],
               ),
             ),
