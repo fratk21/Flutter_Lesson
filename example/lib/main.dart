@@ -1,9 +1,5 @@
-import 'package:example/appbarExample/example.dart';
-import 'package:example/column_rowExample/example.dart';
-import 'package:example/customWidgetExample/example.dart';
-import 'package:example/imagesExample/example.dart';
-import 'package:example/textExample/example.dart';
-import 'package:example/textfieldExample/example.dart';
+import 'package:example/project/hesapmakinesi.dart';
+import 'package:example/project/listview/view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -38,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CustomWidgetExapmle(),
+      home: const exampleview(),
     );
   }
 }
